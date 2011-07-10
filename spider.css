@@ -1,17 +1,12 @@
-body {
-	
+#spiderDiv {
+	position: relative;
 }
-#spiderdiv { 
-	width: 800px; 
-	height:500px; 
-	border:2px solid #ccc; 
-	padding: 3px;
-	margin-left: auto ;
-  	margin-right: auto ;
-  	background: green;
+#spiderCanvas {
+	border: 1px solid #ccc;
+	background: green;
 }
-
-#spidercanvas {
-	width: 800px; 
-	height:500px; 
+#spidertemp {
+	position: absolute;
+	left: 306px;
+	top: 0px;
 }
