@@ -1,0 +1,17 @@
+body {
+	
+}
+#spiderdiv { 
+	width: 800px; 
+	height:500px; 
+	border:2px solid #ccc; 
+	padding: 3px;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	background: green;
+}
+
+#spidercanvas {
+	width: 800px; 
+	height:500px; 
+}
