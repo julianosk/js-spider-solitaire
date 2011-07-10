@@ -1,24 +1,32 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Spider Solitaire</title>
-	<STYLE type="text/css"><!--
-  		#spiderDiv { position: relative; }
-      	#spiderCanvas { border: 1px solid #ccc; background: green; }
-  		#spidertemp { position: absolute; left: 306px; top: 0px;} 
-  		<!-- top: 1px; left: 1px; }-->
-	</STYLE>
-	<link rel="stylesheet" href="spider.css" type="text/css"/>
-	<script src="jquery-1.3.2.min.js" type="text/javascript"></script>
-</head><body>
-    <p></p>
-	<div id="spiderDiv" align="center">
-        <canvas id="spiderCanvas" width="650" height="550">
-            Your Browser doesn't support HTML5 (Canvas)!
-        </canvas>
-		<!-- <canvas id="spidertemp" width="650" height="550"></canvas>-->
-	</div>
-	<div id="log"></div>
-	<script src="spider.js" type="text/javascript"></script>
-</body>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Spider Solitaire</title>
+		<STYLE type="text/css">
+			<!--
+			#spiderDiv { position: relative; }
+			#spiderCanvas { border: 1px solid #ccc; background: green; }
+			#spidertemp { position: absolute; left: 306px; top: 0px;}
+			<!-- top: 1px; left: 1px; }-->
+		</STYLE>
+		<link rel="stylesheet" href="spider.css" type="text/css"/>
+		<script src="jquery-1.3.2.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<p>
+		</p>
+		<div id="spiderDiv" align="center">
+			<canvas id="spiderCanvas" width="650" height="550">
+				Your Browser doesn't support HTML5 (Canvas)!
+			</canvas>
+			<!-- <canvas id="spidertemp" width="650" height="550"></canvas>-->
+		</div>
+		<div id="log">
+		</div>
+		<div align="center">
+			<input type="button" id="btNewGame" value="New game!" />
+		</div>
+		<script src="spider.js" type="text/javascript"></script>
+	</body>
 </html>
