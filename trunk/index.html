@@ -3,21 +3,27 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Spider Solitaire</title>
-		<link rel="stylesheet" href="spider.css" type="text/css"/>
+		<link rel="stylesheet" href="css/spider.css" type="text/css"/>
 	</head>
 	<body>
-		<p>
-		</p>
 		<div id="spiderDiv" align="center">
 			<canvas id="spiderCanvas" width="650" height="550">
 				Your Browser doesn't support HTML5 (Canvas)!
 			</canvas>
 		</div>
-		<div id="log">
-		</div>
+		
 		<div align="center">
-			<input type="button" id="btNewGame" value="New game!" />
+		<table>
+			<tr>
+				<td>
+				<input type="button" id="btUndo" value="Undo..." onclick="undo()" />
+				</td>
+				<td>
+				<input type="button" id="btNewGame" value="New game!" />
+				</td>
+			</tr>
+		</table>
 		</div>
-		<script src="spider.js" type="text/javascript"></script>
+		<script src="js/spider.js" type="text/javascript"></script>
 	</body>
 </html>
