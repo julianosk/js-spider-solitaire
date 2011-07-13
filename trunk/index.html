@@ -11,18 +11,26 @@
 				Your Browser doesn't support HTML5 (Canvas)!
 			</canvas>
 		</div>
-		
+
 		<div align="center">
-		<table>
-			<tr>
-				<td>
-				<input type="button" id="btUndo" value="Undo..." onclick="undo()" />
-				</td>
-				<td>
-				<input type="button" id="btNewGame" value="New game!" />
-				</td>
-			</tr>
-		</table>
+			<table>
+				<tr>
+					<td class="tdLeft">
+					<input type="button" id="btUndo" value="Undo..." onclick="undo()" />
+					(Ctrl+Z)
+					</td>
+					
+					<td class="tdRight">
+					Level:
+					<select id="selectLvl">
+						<option value="1">Easy (1 naipe)</option>
+						<option value="2">Medium (2 naipes)</option>
+						<option value="4">Hard (4 naipes)</option>
+					</select>
+					<input type="button" id="btNewGame" value="New game!" onclick="newGame()" />
+					</td>
+				</tr>
+			</table>
 		</div>
 		<script src="js/spider.js" type="text/javascript"></script>
 	</body>
